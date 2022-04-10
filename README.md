@@ -1,7 +1,7 @@
 # Impopsicles - impossibly improbable popsicles
 
 
-## The Idea
+## The Idea/Inspiration
 The combination of crystals, popsicles, and impossible geometry.
 
 
