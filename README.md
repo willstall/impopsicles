@@ -1,14 +1,9 @@
 # **Impopsicles** - *Impossibly Improbable Popsicles*
+The combination of crystal-like popsicles and impossible geometry.
 
 [![Movie 01](./videos/01.gif)](./videos/01.mp4)
 [![Movie 05](./videos/05.gif)](./videos/05.mp4)
 [![Movie 10](./videos/10.gif)](./videos/10.mp4)
-
-
-
-
-## The Idea and Inspiration
-The combination of crystals, popsicles, and impossible geometry.
 
 [![Preview 1](./thumbnails/01_thumb.png)](./full/01.png)
 [![Preview 2](./thumbnails/02_thumb.png)](./full/02.png)
@@ -23,11 +18,15 @@ The combination of crystals, popsicles, and impossible geometry.
 [![Preview 11](./thumbnails/11_thumb.png)](./full/11.png)
 [![Preview 12](./thumbnails/12_thumb.png)](./full/12.png)
 
+# NEED TO TALK ABOUT IT BEING IN REALTIME WITH GLSL
 
-## The Features and Algorithm
+## Idea and Inspiration
+
+## Features and Algorithm
 
 
-## The Technology
+## Technology
 
+## Development Status
 
 ## About the Artist
