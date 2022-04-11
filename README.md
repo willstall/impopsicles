@@ -85,7 +85,7 @@ Example of a Seeded Impopsicle:
 ***Currently, a piece has an opportunity of 2-5 recursisve operation sets.***
 
 ## Development Status
-Impopsicle already works and renders beautifuly in realtime. That said, development is still very active. The rendering engine is currently being extended to support more styles and rendering techniques. The base algorithm is also being assessed and modified for scale, orginality, and beauty; daily. Additional colors and materials are also being tested and created.
+Impopsicle already works and renders beautifuly in realtime. That said, development is still very active. The rendering engine is currently being extended to support more styles and rendering techniques. The base algorithm is also being assessed and modified for scale, orginality, and beauty; daily. Additional colors and materials are also being tested and developed.
 
 ***The final implementation will not just have blue cicles.***
 
