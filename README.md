@@ -62,6 +62,7 @@ Geometric Mutations
   - Elongate
   - Twist
   - Bend
+  - Wrap
 
 Duplicative Mutations
   - Reflect
