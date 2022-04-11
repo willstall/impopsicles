@@ -27,6 +27,32 @@ The combination of crystal-like popsicles and impossible geometry.
 ## Idea and Inspiration
 
 ## Features and Algorithm
+Each piece recieves a random complexity index. This index represents how many recursive operation sets a piece can make. 
+
+These mutations are combined to form operation sets recursively for extremely interesting results. An operation set can have 1-3 mutations. A duplicative operation is weighted to be done first.
+
+Positional Mutations
+  - Rotate ( Single or Multi Axis )
+  - Translate ( Single or Multi Axis )
+
+Geometric Mutations
+  - Elongate
+  - Twist
+  - Bend
+
+Duplicative Mutations
+  - Reflect
+  - Repeat
+  - Duplicate ( Single or Multi Axis )
+
+Currently there is a chance between that a piece can recieve between 2 and 5 recursisve operation sets.
+
+Example Operation Sets:
+  - Reflect+Rotate
+  - Repeat+Twist
+  - Reflect+Elongate
+  - Reflect+Rotate+Elongate
+  - Reflect+Translate
 
 
 ## Technology
