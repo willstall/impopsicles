@@ -1,11 +1,13 @@
+# **Impopsicles** - *Impossibly Improbable Popsicles*
+
 [![Movie 01](./videos/01.gif)](./videos/01.mp4)
 [![Movie 05](./videos/05.gif)](./videos/05.mp4)
 [![Movie 10](./videos/10.gif)](./videos/10.mp4)
 
-# Impopsicles - impossibly improbable popsicles
 
 
-## The Idea/Inspiration
+
+## The Idea and Inspiration
 The combination of crystals, popsicles, and impossible geometry.
 
 [![Preview 1](./thumbnails/01_thumb.png)](./full/01.png)
