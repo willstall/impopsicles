@@ -33,9 +33,7 @@ A collector has the ability to move the Impopsicle around in realtime. While mov
 
 ## Features and Algorithm
 
-Impopsicles are currently created with a combination or 2 actions. The first action is defining a random popsicle style.
-
-There are quite a few operation styles, each with many characterics.
+Impopsicles are currently created with a combination or 2 actions. The first action is defining a random 'overall' popsicle style.
 
 Styles
   - Vertically Olongated Oval
