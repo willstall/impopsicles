@@ -20,7 +20,7 @@ The combination of crystal-like popsicles and impossible geometry.
 [![Preview 11](./thumbnails/11_thumb.png)](./full/11.png)
 [![Preview 12](./thumbnails/12_thumb.png)](./full/12.png)
 
-## Idea and Inspiration
+## Idea and Inspiration?
 
 ## Technology
 Impopsicles are first given randomized values in JS. These values are then used to create a custom GLSL fragment shader. The shader is then compiled in real-time. Raymarching is used to create the scene. Each piece, at it's core, is a uniquely generated SDF ( signed distance field ) that is then modified in unique and unexpected ways.
@@ -82,6 +82,6 @@ Example of a Seeded Impopsicle:
       - Duplicate + Translate
 
 ## Development Status
-
+Impopsicle already work and render beautifuly in realtime. That said, development is still very active. The rendering engine is currently being extend to support more styles and additional volumetric rendering. The base algorithm is also being assessed and modified for scale and orginality, daily.
 
 ## About the Artist
