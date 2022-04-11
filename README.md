@@ -27,7 +27,21 @@ The combination of crystal-like popsicles and impossible geometry.
 ## Idea and Inspiration
 
 ## Features and Algorithm
-Each piece recieves a random complexity index. This index represents how many recursive operation sets a piece can make. 
+
+Pieces are currently created with a combination or 2 actions. The first action is defining a random popsicle style.
+
+There are quite a few operation styles, each with many characterics.
+
+Popsicle Styles
+  - Vertically Olongated Oval
+  - Twist
+
+Popsicle Style Modifiers
+  - Single
+  - Double
+  - Triple
+
+Once a popsicle type a style modifier is applied then, each piece recieves a random complexity index. This index represents how many recursive operation sets a piece can make. 
 
 These mutations are combined to form operation sets recursively for extremely interesting results. An operation set can have 1-3 mutations. A duplicative operation is weighted to be done first.
 
