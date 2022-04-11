@@ -5,6 +5,8 @@ The combination of crystal-like popsicles and impossible geometry.
 [![Movie 05](./videos/05.gif)](./videos/05.mp4)
 [![Movie 10](./videos/10.gif)](./videos/10.mp4)
 
+***Click and Download for a Resolution Example. These are rendered in Real-Time.***
+
 [![Preview 1](./thumbnails/01_thumb.png)](./full/01.png)
 [![Preview 2](./thumbnails/02_thumb.png)](./full/02.png)
 [![Preview 3](./thumbnails/03_thumb.png)](./full/03.png)
@@ -17,6 +19,7 @@ The combination of crystal-like popsicles and impossible geometry.
 [![Preview 10](./thumbnails/10_thumb.png)](./full/10.png)
 [![Preview 11](./thumbnails/11_thumb.png)](./full/11.png)
 [![Preview 12](./thumbnails/12_thumb.png)](./full/12.png)
+
 
 # NEED TO TALK ABOUT IT BEING IN REALTIME WITH GLSL
 
