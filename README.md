@@ -23,7 +23,7 @@ The combination of crystal-like popsicles and impossible geometry.
 ## Idea and Inspiration
 
 ## Technology
-Impopsicles are first given randomized values in JS. These values are then used to create a custom GLSL fragment shader. The shader is then compiled in real-time. 
+Impopsicles are first given randomized values in JS. These values are then used to create a custom GLSL fragment shader. The shader is then compiled in real-time. Raymarching is used to create the scene. Each piece, at it's core, is a uniquely generated SDF ( signed distance field ) that is then modified in unique and unexpected ways.
 
 ## User Input
 A collector has the ability to move the Impopsicle around in realtime. While moving, the raymarcher runs is a low-detail view allowing for very quick rendering. When the mouse/touch is released, the piece defaults back into a high-detail mode. The defeault resolution option is 2, but can lowered or raised via 0-9 on keyboard input. 0 being the lowest detail and 9 being the highest. The spacebar can also be used to allow for an ambient rotation action.
