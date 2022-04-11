@@ -88,6 +88,10 @@ Example of a Seeded Impopsicle:
 Impopsicle already work and render beautifuly in realtime. That said, development is still very active. The rendering engine is currently being extend to support more styles and additional volumetric rendering. The base algorithm is also being assessed and modified for scale and orginality, daily.
 
 ## About the Artist
-Will has been creating generative art since before the ye ol' days of flash; 20ish+ years of silly creation. Now he's a designer/coder/engineer/something working in GLSL making realtime shaders. He's also been known to laugh, design, and throw code against many walls like a silly goose. Some call him creative, others call him Will
+Will has been making generative art since before the ye ol' days of flash; 20ish+ years of silly creation. Now he's a designer/developer/engineer/something working in GLSL making realtime shaders.
 
-Will is a big fan of community. He has run a coworking space, a game studio, a black-tie award show for creatives, and an event called dev-night that brought together brilliant people on a weekly basis to create nothing more than scenarios of fun.
+He's a big fan of community and has run a coworking space, an award-winning game studio, a black-tie award show for creatives, and an event called dev-night that brought together brilliant people on a weekly basis to create nothing more than scenarios of fun.
+
+He's also been known to laugh, design, roller skate, and throw code against many walls like a silly goose. Some call him creative, others call him Will
+
+
