@@ -26,10 +26,10 @@ A combination of crystal-like popsicles and impossible geometry.
 Popsicles are delicious, but *Impopsicles* are impossibly delicious. Inspired by amazing artists like M.C. Escher and Andy Warhol, Impopsicles is a long-form generative series that blends light, math, and dessert to shape gorgeous Interactive Popsicles. Each 'cicle' is a just another lick of creation.
 
 ## Technology
-*Impopsicles* are first given randomized seed values in Javascript. These values are then used to create a custom GLSL fragment shader. The shader is then compiled in real-time. Raymarching is used to render the scene. Each piece, at it's core, is a uniquely generated SDF ( signed distance field ) that is then modified in unique and unexpected ways.
+*Impopsicles* are born in Javascript where each piece starts as randomized seed values. These values are used to create a custom GLSL fragment shader which is compiled in realtime. Raymarching is used to render the scene. Each piece, at its core, is a uniquely generated signed distance field ( SDF ) that is then modified in unique and unexpected ways. 
 
 ## User Input
-A collector has the ability to move an Impopsicle around. While moving, the raymarcher runs in low-detail mode allowing for very quick rendering. When static the piece defaults to a high-detail mode. The default resolution option is 2, but can lowered or raised via 0-9 on keyboard input. 0 being the lowest detail and 9 being the highest.
+*Impopsicles* are interactive giving the collector the ability to spin the popsicle around and view it 360 degress around an axis. While moving, the raymarcher runs in low-detail mode allowing for very quick rendering. When static the piece defaults to a high-detail mode. The default resolution option is 2, but can lowered or raised via 0-9 on keyboard input. 0 being the lowest detail and 9 being the highest.
 
 The spacebar can also be used to allow for an ambient rotation action.
 
@@ -37,15 +37,15 @@ The spacebar can also be used to allow for an ambient rotation action.
 
 ## Features and Algorithm
 
-*Impopsicles* are currently created with two combined action sequences. The first sequence is defining a random 'overall' popsicle style. The second action is apply mutation upon this style.
+*Impopsicles* are currently created with two combined action sequences. The first sequence is defines an 'overall' popsicle style. The second action sequence mutates this style.
 
 Styles
   - Rectangle ( capped,dual capped, or uncapped ) 
-  - Squared ( capped,dual capped, or uncapped )
+  - Square ( capped,dual capped, or uncapped )
   - Cylinder ( capped or dual capped )
   - Astropop ( capped or dual capped )
   - Wedge 
-  - Trapazoid ( capped or dual capped )
+  - Trapezoid ( capped or dual capped )
   - Twist
 
 Style Option
@@ -62,7 +62,7 @@ Style Join Type
   - None
   - Blend
 
-A style is created by picking an itial style ( a style option may be applied ) combined w/ a type and join type. Once a style is applied then, each piece recieves a random complexity index. This index represents how many recursive 'Operation Sets' a piece can make. Operations Sets are a combined group of mutations that are used recursively in order to manifest extremely interesting results. An operation set can have 1-3 mutations. A duplicative operation is weighted as the highest to go first in a sequence.
+A style is created by picking an initial style ( a style option may be applied ) combined with a type and join type. Once a style is applied, each piece recieves a random complexity index. This index represents how many recursive 'Operation Sets' a piece can make. Operations Sets are a combined group of mutations that are used recursively in order to manifest extremely interesting results. An operation set can have 1-3 mutations. A duplicative operation is weighted as the highest to go first in a sequence.
 
 Positional Mutations
   - Rotate ( Single or Multi Axis )
@@ -93,10 +93,10 @@ Example of a Seeded Impopsicle:
       - Repeat + Twist
       - Duplicate + Translate
 
-***Currently, a piece has an opportunity of 2-5 recursisve operation sets.***
+***Currently, a piece has the capability of 2-5 recursive operation sets.***
 
 ## Development Status
-Impopsicle already works and renders beautifuly in realtime. That said, development is still very active. The rendering engine is currently being extended to support more styles and rendering techniques. The base algorithm is also being assessed and modified for scale, orginality, and beauty; daily. Additional colors and materials are also being tested and developed.
+*Impopsicles* already works and renders beautifully in realtime. That said, development is still very active. The rendering engine is currently being extended to support more styles and rendering techniques. The base algorithm is also being assessed and modified for scale, originality, and beauty; daily. Additional colors and materials are also being tested and developed.
 
 ***The final implementation will not just have blue cicles.***
 
