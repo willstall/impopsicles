@@ -37,7 +37,7 @@ The spacebar can also be used to allow for an ambient rotation action.
 
 ## Features and Algorithm
 
-Impopsicles are currently created with a combination or 2 actions. The first action is defining a random 'overall' popsicle style. The second action is apply mutation upon this style.
+Impopsicles are currently created with two combined action sequences. The first sequence is defining a random 'overall' popsicle style. The second action is apply mutation upon this style.
 
 Styles
   - Rectangle ( capped,dual capped, or uncapped ) 
