@@ -28,7 +28,7 @@ The combination of crystal-like popsicles and impossible geometry.
 
 ## Features and Algorithm
 
-Pieces are currently created with a combination or 2 actions. The first action is defining a random popsicle style.
+Impopsicles are currently created with a combination or 2 actions. The first action is defining a random popsicle style.
 
 There are quite a few operation styles, each with many characterics.
 
@@ -62,12 +62,18 @@ Duplicative Mutations
 Currently there is a chance between that a piece can recieve between 2 and 5 recursisve operation sets.
 
 Example Operation Sets:
-  - Reflect+Rotate
-  - Repeat+Twist
-  - Reflect+Elongate
-  - Reflect+Rotate+Elongate
-  - Reflect+Translate
+  - Reflect + Rotate
+  - Repeat + Twist
+  - Reflect + Elongate
+  - Reflect + Rotate+Elongate
+  - Reflect + Translate
 
+Example of a Seeded Impopsicle:
+  - Twist
+    - Double
+      - Reflect + Rotate + Elongate
+      - Repeat + Twist
+      - Duplicate + Translate
 
 ## Technology
 
