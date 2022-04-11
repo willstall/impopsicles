@@ -34,16 +34,20 @@ Impopsicles are currently created with a combination or 2 actions. The first act
 
 There are quite a few operation styles, each with many characterics.
 
-Popsicle Styles
+Styles
   - Vertically Olongated Oval
   - Twist
 
-Popsicle Style Modifiers
+Style Type
   - Single
   - Double
   - Triple
 
-Once a popsicle type a style modifier is applied then, each piece recieves a random complexity index. This index represents how many recursive operation sets a piece can make. 
+Style Join Type
+  - None
+  - Blend
+
+A style is created by picking an itial style w/ a type and join type. Once a style is applied then, each piece recieves a random complexity index. This index represents how many recursive operation sets a piece can make. 
 
 These mutations are combined to form operation sets recursively for extremely interesting results. An operation set can have 1-3 mutations. A duplicative operation is weighted to be done first.
 
