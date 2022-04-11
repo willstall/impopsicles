@@ -40,9 +40,19 @@ The spacebar can also be used to allow for an ambient rotation action.
 Impopsicles are currently created with a combination or 2 actions. The first action is defining a random 'overall' popsicle style. The second action is apply mutation upon this style.
 
 Styles
-  - Vertically Olongated Oval
+  - Rectangle ( capped,dual capped, or uncapped ) 
+  - Squared ( capped,dual capped, or uncapped )
+  - Cylinder ( capped or dual capped )
+  - Astropop ( capped or dual capped )
+  - Wedge 
+  - Trapazoid ( capped or dual capped )
   - Twist
 
+Style Option ( these optionally modify a base style )
+  - Inset
+  - Dual Inset
+  - Bite
+  
 Style Type
   - Single
   - Double
@@ -52,7 +62,7 @@ Style Join Type
   - None
   - Blend
 
-A style is created by picking an itial style combined w/ a type and join type. Once a style is applied then, each piece recieves a random complexity index. This index represents how many recursive 'Operation Sets' a piece can make. Operations Sets are a combined group of mutations that are used recursively in order to manifest extremely interesting results. An operation set can have 1-3 mutations. A duplicative operation is weighted as the highest to go first in a sequence.
+A style is created by picking an itial style ( a style option may be applied ) combined w/ a type and join type. Once a style is applied then, each piece recieves a random complexity index. This index represents how many recursive 'Operation Sets' a piece can make. Operations Sets are a combined group of mutations that are used recursively in order to manifest extremely interesting results. An operation set can have 1-3 mutations. A duplicative operation is weighted as the highest to go first in a sequence.
 
 Positional Mutations
   - Rotate ( Single or Multi Axis )
