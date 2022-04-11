@@ -92,6 +92,8 @@ Will has been making generative art since before the ye ol' days of flash; 20ish
 
 He's a big fan of community and has run a coworking space, an award-winning game studio, a black-tie award show for creatives, and an event called dev-night that brought together brilliant people on a weekly basis to create nothing more than scenarios of fun.
 
-He's also been known to laugh, design, roller skate, and throw code against many walls like a silly goose. Some call him creative, others call him Will
+He's also been known to laugh, make up words, roller skate, and tell people they're lovely wayyyyy too many times.
+
+Some call him creative, others call him Will
 
 
