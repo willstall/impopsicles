@@ -23,19 +23,21 @@ A combination of crystal-like popsicles and impossible geometry.
 [![Preview 12](./thumbnails/12_thumb.png)](./full/12.png)
 
 ## Idea and Inspiration
-Popsicles are delicous, but Imposicles are impossibly delicious. Inspired by amazing artists like M.C. Escher and Andy Warhol, Impopsciles is a long-form generative series that blends light, math, and dessert to create gorgeous Interactive Popsicles. Each 'cicle' is a another lick of creation.
+Popsicles are delicous, but Imposicles are impossibly delicious. Inspired by amazing artists like M.C. Escher and Andy Warhol, Impopsicles is a long-form generative series that blends light, math, and dessert to shape gorgeous Interactive Popsicles. Each 'cicle' is a just another lick of creation.
 
 ## Technology
-Impopsicles are first given randomized values in JS. These values are then used to create a custom GLSL fragment shader. The shader is then compiled in real-time. Raymarching is used to create the scene. Each piece, at it's core, is a uniquely generated SDF ( signed distance field ) that is then modified in unique and unexpected ways.
+Impopsicles are first given randomized seed values in Javascript. These values are then used to create a custom GLSL fragment shader. The shader is then compiled in real-time. Raymarching is used to render the scene. Each piece, at it's core, is a uniquely generated SDF ( signed distance field ) that is then modified in unique and unexpected ways.
 
 ## User Input
-A collector has the ability to move the Impopsicle around in realtime. While moving, the raymarcher runs is a low-detail view allowing for very quick rendering. When the mouse/touch is released, the piece defaults back into a high-detail mode. The defeault resolution option is 2, but can lowered or raised via 0-9 on keyboard input. 0 being the lowest detail and 9 being the highest. The spacebar can also be used to allow for an ambient rotation action.
+A collector has the ability to move an Impopsicle around. While moving, the raymarcher runs in low-detail mode allowing for very quick rendering. When static the piece defaults to a high-detail mode. The default resolution option is 2, but can lowered or raised via 0-9 on keyboard input. 0 being the lowest detail and 9 being the highest.
+
+The spacebar can also be used to allow for an ambient rotation action.
 
 ![Preview 13](./full/13.png)
 
 ## Features and Algorithm
 
-Impopsicles are currently created with a combination or 2 actions. The first action is defining a random 'overall' popsicle style.
+Impopsicles are currently created with a combination or 2 actions. The first action is defining a random 'overall' popsicle style. The second action is apply mutation upon this style.
 
 Styles
   - Vertically Olongated Oval
@@ -50,9 +52,7 @@ Style Join Type
   - None
   - Blend
 
-A style is created by picking an itial style w/ a type and join type. Once a style is applied then, each piece recieves a random complexity index. This index represents how many recursive operation sets a piece can make. 
-
-These mutations are combined to form operation sets recursively for extremely interesting results. An operation set can have 1-3 mutations. A duplicative operation is weighted to be done first.
+A style is created by picking an itial style combined w/ a type and join type. Once a style is applied then, each piece recieves a random complexity index. This index represents how many recursive 'Operation Sets' a piece can make. Operations Sets are a combined group of mutations that are used recursively in order to manifest extremely interesting results. An operation set can have 1-3 mutations. A duplicative operation is weighted as the highest to go first in a sequence.
 
 Positional Mutations
   - Rotate ( Single or Multi Axis )
