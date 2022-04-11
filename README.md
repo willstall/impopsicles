@@ -21,7 +21,7 @@ The combination of crystal-like popsicles and impossible geometry.
 [![Preview 12](./thumbnails/12_thumb.png)](./full/12.png)
 
 ## Idea and Inspiration
-Popsicles are delicous, but Imposicles are impossibly delicious. Inspired by amazing artist like M.C. Escher and Andy Warhol, Impopsciles is a long-form generative series that bends light, math, dessert, and geometry to create gorgeous Interactive Popsicles. Each `cicle` is a little slice of creation.
+Popsicles are delicous, but Imposicles are impossibly delicious. Inspired by amazing artists like M.C. Escher and Andy Warhol, Impopsciles is a long-form generative series that blends light, math, and dessert to create gorgeous Interactive Popsicles. Each 'cicle' is a another lick of creation.
 
 ## Technology
 Impopsicles are first given randomized values in JS. These values are then used to create a custom GLSL fragment shader. The shader is then compiled in real-time. Raymarching is used to create the scene. Each piece, at it's core, is a uniquely generated SDF ( signed distance field ) that is then modified in unique and unexpected ways.
