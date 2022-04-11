@@ -20,10 +20,13 @@ The combination of crystal-like popsicles and impossible geometry.
 [![Preview 11](./thumbnails/11_thumb.png)](./full/11.png)
 [![Preview 12](./thumbnails/12_thumb.png)](./full/12.png)
 
-
-# NEED TO TALK ABOUT IT BEING IN REALTIME WITH GLSL
-
 ## Idea and Inspiration
+
+## Technology
+Impopsicles are first given randomized values based on their algorithm in JS. These values are then used to create a custom GLSL fragment shader. This shader is compiled in real-time. 
+
+## User Input
+A collector has the ability to move the Impopsicle around in realtime. While moving, the raymarcher runs is a low-detail view allowing for very quick rendering. When the mouse/touch is released, the piece defaults back into a high-detail mode. The defeault resolution option is 2, but can lowered or raised via 0-9 on keyboard input. 0 being the lowest detail and 9 being the highest. The spacebar can also be used to allow for an ambient rotation action.
 
 ## Features and Algorithm
 
@@ -73,12 +76,6 @@ Example of a Seeded Impopsicle:
       - Reflect + Rotate + Elongate
       - Repeat + Twist
       - Duplicate + Translate
-
-## Technology
-Impopsicles are first given randomized values based on their algorithm in JS. These values are then used to create a custom GLSL fragment shader. This shader is compiled in real-time. 
-
-## User Input
-A collector has the ability to move the Impopsicle around in realtime. While moving, the raymarcher runs is a low-detail view allowing for very quick rendering. When the mouse/touch is released, the piece defaults back into a high-detail mode. The defeault resolution option is 2, but can lowered or raised via 0-9 on keyboard input. 0 being the lowest detail and 9 being the highest. The spacebar can also be used to allow for an ambient rotation action.
 
 ## Development Status
 
