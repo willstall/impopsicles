@@ -1,3 +1,7 @@
+![Movie 01](./videos/01.gif)
+![Movie 01](./videos/02.gif)
+![Movie 01](./videos/03.gif)
+
 # Impopsicles - impossibly improbable popsicles
 
 [![Preview 1](./thumbnails/01_thumb.png)](./full/01.png)
