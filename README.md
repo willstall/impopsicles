@@ -48,7 +48,7 @@ Styles
   - Trapazoid ( capped or dual capped )
   - Twist
 
-Style Option ( these optionally modify a base style )
+Style Option
   - Inset
   - Dual Inset
   - Bite
