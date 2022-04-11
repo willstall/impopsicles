@@ -1,5 +1,5 @@
 # **Impopsicles** - *Impossibly Improbable Popsicles*
-A combination of crystal-like popsicles and impossible geometry.
+A combination of crystalline popsicles and impossible geometry.
 
 ***All pieces are interactive and rendered in Real-Time via Raymarching in GLSL.***
 
