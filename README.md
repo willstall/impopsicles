@@ -89,7 +89,7 @@ Impopsicle already works and renders beautifuly in realtime. That said, developm
 
 ***The final implementation will not just have blue cicles.***
 
-## About the Artist
+## About WillStall
 Will has been making generative art since before the ye ol' days of flash; 20ish+ years of silly creation. Now he's a designer/developer/engineer/something working in GLSL making realtime shaders.
 
 He's a big fan of community and has run a coworking space, an award-winning game studio, a black-tie award show for creatives, and an event called dev-night that brought together brilliant people on a weekly basis to create nothing more than scenarios of fun.
