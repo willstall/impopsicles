@@ -66,8 +66,6 @@ Duplicative Mutations
   - Repeat
   - Duplicate ( Single or Multi Axis )
 
-Currently there is a chance between that a piece can recieve between 2 and 5 recursisve operation sets.
-
 Example Operation Sets:
   - Reflect + Rotate
   - Repeat + Twist
@@ -81,6 +79,8 @@ Example of a Seeded Impopsicle:
       - Reflect + Rotate + Elongate
       - Repeat + Twist
       - Duplicate + Translate
+
+***Currently, a piece has an opportunity of 2-5 recursisve operation sets.***
 
 ## Development Status
 Impopsicle already work and render beautifuly in realtime. That said, development is still very active. The rendering engine is currently being extend to support more styles and additional volumetric rendering. The base algorithm is also being assessed and modified for scale and orginality, daily.
