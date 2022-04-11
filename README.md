@@ -88,7 +88,7 @@ Example Operation Sets:
 
 Example of a Seeded Impopsicle:
   - Twist
-    - Double
+    - Double + Blend
       - Reflect + Rotate + Elongate
       - Repeat + Twist
       - Duplicate + Translate
