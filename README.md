@@ -1,5 +1,5 @@
 # **Impopsicles** - *Impossibly Improbable Popsicles*
-The combination of crystal-like popsicles and impossible geometry.
+The combination of crystal-like popsicles and impossible geometry. ***All pieces are interactive.***
 
 [![Movie 01](./videos/01.gif)](./videos/01.mp4)
 [![Movie 05](./videos/05.gif)](./videos/05.mp4)
