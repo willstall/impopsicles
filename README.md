@@ -85,3 +85,4 @@ Example of a Seeded Impopsicle:
 Impopsicle already work and render beautifuly in realtime. That said, development is still very active. The rendering engine is currently being extend to support more styles and additional volumetric rendering. The base algorithm is also being assessed and modified for scale and orginality, daily.
 
 ## About the Artist
+Will is a generative shader engineer working in GLSL. He's been known to laugh, design, and throw code against many walls like a silly goose. Some call him creative, others call him Will
